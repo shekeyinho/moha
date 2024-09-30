@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: hsl(206, 94%, 87%);
+
+}
+.contianer{
+    display: flex;
+    background-color: white;
+    /* border: 2px solid red; */
+    max-width: 800px;
+    min-height: 500px;
+    margin: 70px auto;
+    /* position: relative; */
+}
+.leftsidebar{
+    /* border: 2px solid blue; */
+    margin: 10px;
+    width: 30%;
+    background: linear-gradient(175deg, blue, rgb(142, 147, 243));
+    position: relative;
+}
+p{
+    /* margin: 15px; */
+    /* padding: 0.2rem; */
+    /* margin: 5px; */
+    color: white;
+    /* text-align: right; */
+
+}
+
+.circlenumbers{
+    margin: 5px;
+    padding: 1rem 2rem 2rem 4rem;
+    /* padding-left: 2rem ; */
+    
+}
+.circle1 {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 1rem;
+    
+    
+   
+    
+    background-color: transparent;
+    /* color: black; */
+    position: absolute;
+    top: 30px;
+    left: 22px;
+
+    
+
+}
+.circle2{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 1rem;
+    
+    
+   
+    
+    background-color: transparent;
+    /* color: white; */
+    position: absolute;
+    top: 95px;
+    left: 22px;
+}
+.circle3{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 1rem;
+    
+    
+   
+    
+    background-color: transparent;
+    /* color: white; */
+    position: absolute;
+    top: 160px;
+    left: 22px;
+}
+.circle4{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 1rem;
+    
+    
+   
+    
+    background-color: transparent;
+    /* color: white; */
+    position: absolute;
+    top: 220px;
+    left: 22px;
+}
+
+
+
+
+.one{
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    margin: 0 auto;
+
+
+
+    /* margin-top: 5px; */
+    /* margin-left: 8px; */
+}
+span{
+    display: block;
+}
+span .one:hover{
+    border-radius: 1rem;
+    background-color: hsl(206, 94%, 87%);
+    color: black;
+    cursor: pointer;
+}
+.step1{
+    color: lightgray;
+    margin: 5px;
+    font-weight: bolder;
+    
+    /* text-align: center; */
+}
+.step2{
+    color: lightgray;
+    margin: 5px;
+    padding-top: 1rem;
+    
+    /* text-align: center; */
+}
+.step3{
+    color: lightgray;
+    margin: 5px;
+    padding-top: 1rem;
+    
+    /* text-align: center; */
+}
+.step4{
+    color: lightgray;
+    margin: 5px;
+    padding-top: 1rem;
+    
+    /* text-align: center; */
+}
+
+
+
+.rightside{
+    /* background-color: white; */
+    margin: 10px;
+    /* border: 2px solid yellow; */
+    width: 50%;
+    position: relative;
+    top: 5px;
+    right: -50px;
+}
+h2{
+    margin: 10px;
+}
+.lightgreyparagpraph{
+    color: gray;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.formcontainer{
+    margin: 5px;
+    
+}
+label{
+    margin: 5px;
+}
+input{
+    margin: 6px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    width: 100%;
+}
+.button{
+    
+    
+    
+}
+button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 30%;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: 80px;
+    right: -5px;
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+}
+button:hover{
+    background: linear-gradient(175deg, blue, rgb(142, 147, 243));
+}
